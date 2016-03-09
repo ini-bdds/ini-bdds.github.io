@@ -1,0 +1,172 @@
+<!DOCTYPE html 
+      PUBLIC "-//W3C//DTD HTML 4.01//EN"
+      "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-US">
+<head>
+	<title>The BDDS Project</title>
+
+	<meta content = 'text/html; charset=utf-8' http-equiv="X-UA-Compatible">
+	<meta name = 'description' content = "The BDDS project is an NIH-funded effort to facilitate life science research using big data.">
+
+    <!-- Custom styles -->
+    <link href="css/style.css" rel="stylesheet">
+
+	<!-- Favicon Stuff -->
+	<link rel="shortcut icon" href="resources/images/favicon.ico">
+</head>
+
+<body>
+<div class='clearfloat' id='head'>
+  <div class='clearfloat'>
+    <div id='logo'>
+      <a href='/' title='BDDS'>
+        <img src='resources/images/bdds_logo.png'>
+      </a>
+
+      <div id='tagline'>
+        Applying Big Data Tools to Accelerate Scientific Knowledge Turns
+      </div> <!-- /tagline -->
+    </div> <!-- /logo-->
+  </div>
+
+  <!-- starting navbar in head-->
+  <div class='clearfloat' id='navbar'>
+    <div id='page-bar'>
+      <ul class='menu'>
+        <li class='leaf first'>
+		  <a href='/2.0' title='Jenkins 2.0'>
+		    2.0 Preview
+		  </a>
+		</li>
+		<li class='leaf'>
+		  <a href='/node' title='Blog'>
+		  	Blog
+		  </a>
+ 		</li>
+	  </ul>
+    </div> <!-- /page-bar -->
+  </div> <!-- /navbar -->
+</div> <!-- /head -->
+
+</body>
+</html>
+
+<!--
+<!-- start page content -->
+<div class='clearfloat' id='page'>
+  <div class='clearfloat' id='top'>
+	<!-- starting sidebar -->
+	  <div id='sidebar'>
+		<!-- start even block -->
+	    <div class='block block-block even' id='block-block-5'>
+		  <h3>
+			What is BDDS?
+		  </h3>
+		  <div class='content'>
+		    <p>
+			  In a nutshell, BDDS is an NIH-funded effort to apply big-data tools for life-science research.
+			</p>
+	      </div><!-- /content -->
+		</div><!-- /even block -->
+        
+	    <!-- starting odd block -->
+		<div class='block block-block odd' id='block-block-8'>
+		  <h3>
+		    Resources
+		  </h3>
+		  <div class='content'>
+		    <big>
+			  <p>
+			    <a href='/calendar'>
+				  Calendar
+				</a>
+			  </p>
+
+			  <p>
+			    <a href='https://wiki.jenkins-ci.org/'>
+			      Wiki
+			    </a>
+			  </p>
+
+			</big>
+		  </div> <!-- /content -->
+		</div><!-- /odd block -->
+
+	  </div><!-- ending sidebar -->
+
+    <!-- starting main content -->
+	<div class='main-content with-sidebar' id='content'>
+	  <div id='content-top'>
+
+        <style>
+          /*kill off unwanted crafts */
+          #content H1, DIV.taxonomy {
+              display:none;
+          }
+          #content DIV.node {
+              border-bottom:none;
+          }
+  
+          #welcome #directory {
+              padding-top: 2em;
+          }
+          #welcome #directory A {
+              text-decoration: none !important;
+          }
+          #welcome #directory A:link {
+              text-decoration: none !important;
+          }
+          #welcome #directory A:hover {
+             text-decoration: underline;
+             color: black;
+          }
+          #welcome #directory .title {
+             color: black;
+             font-weight: bold;
+             font-size: 1.5em;
+          }
+          #welcome #directory TD {
+             vertical-align: middle;
+             padding-bottom: 3em;
+          }
+          #welcome #directory .description {
+             color: gray;
+          }
+          #welcome #directory .logo {
+             border: 0px;
+             margin-right: 1em;
+          }
+        </style>
+
+        <div id='welcome'>
+          <div align='center' class='content'>
+            <table id='directory' style='border: none;' valign='middle'>
+              <tr>
+                <td>
+                  <a href='https://wiki.jenkins-ci.org/display/JENKINS/Meet+Jenkins'>
+                    <img class='logo' src='/images/logo_head.png'>
+                  </a>
+                </td>
+                <td>
+                  <a href='https://wiki.jenkins-ci.org/display/JENKINS/Meet+Jenkins'>
+                    <div class='title'>
+                      Meet Jenkins
+                    </div>
+                    <div class='description'>
+                      Find out what Jenkins is and get started.
+                    </div>
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </div> <!-- /content -->
+        </div> <!-- /welcome -->
+
+      </div> <!-- /content-top -->
+    </div> <!-- /content -->
+  </div> <!-- /top -->
+</div> <!-- /page --> 
+
+</body>
+</html>
+-->

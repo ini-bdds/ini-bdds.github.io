@@ -10,3 +10,15 @@ body {
     text-align:center
 }
 
+.white_background {
+	background: white
+}
+
+.table th, .table td { 
+     border-top: none !important; 
+ }
+
+.td-center td {
+	valign: middle;
+	text-align: center;
+}
