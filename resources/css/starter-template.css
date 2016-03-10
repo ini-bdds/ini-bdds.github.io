@@ -1,8 +1,17 @@
 body {
-    padding-top: 50px;
+	margin: 0; 
+	padding: 0; 
+	font-family:'Roboto', sans-serif; 
 }
+
+.navbar-top	{
+	background-color: #002f3d;
+}
+
 .starter-template {
-    padding: 40px 15px;
+    padding-top: 40px;
+	padding-right: 15px;
+	padding-left: 15px;
     text-align: center;
 }
 
@@ -16,9 +25,306 @@ body {
 
 .table th, .table td { 
      border-top: none !important; 
+	vertical-align: middle !important;
  }
 
 .td-center td {
 	valign: middle;
 	text-align: center;
 }
+
+.gray_background {
+	background-color: LightGray;
+}
+
+/* from INI style sheet */
+
+/* Footer */
+.fcontainer{ text-align:center; margin: 0 auto; padding: 30px 2%; width: 94%; max-width: 1366px;}
+footer{
+	background: #002f3d;
+	border-top:32px solid #b5232e;
+	color:white;
+}
+
+footer > ul{max-width:1366px; margin: 0 auto; }
+
+footer img {
+	height:55px;
+	padding: 5px;
+	line-height:60px;
+}
+
+.flogos {
+    text-align:center;
+}
+.footer-nav{padding-top:30px;} 
+.footer-nav a {padding: 10px;}
+footer a{ 
+	color:#bcbec0; 
+	font-size: 11px; 
+	text-decoration:none; 
+	display: inline-block;
+}
+
+.footer-nav a:hover {color:white;}
+
+.event-content, .event{
+	font-size: 12px;  text-transform: capitalize;   margin: 7px auto;  width: 80%; 
+}
+.event-content small, .event small{
+	font-size:7pt; text-transform:capitalize;
+	
+}
+
+.event-content li:first-child div{
+	content:"";
+	width:3.75em;
+}
+
+.event-content li div{
+	text-align:center;
+	width: 22em;
+}
+
+.event-content li{
+	list-style:none;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.threejs-content{
+	display:block;
+	vertical-align:top;
+	text-align:center;
+
+}
+
+.threejs-content > div{
+	vertical-align:top;
+    text-align: left;
+    width: 13%;
+    font-size: 58%;
+    display: inline-block;
+    padding:20px 10px;
+}
+
+.event{ 
+	padding-top: 30px;
+}
+.event li {
+  content: " ";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 1em;
+  border-radius: .5em;
+  background: white;
+  margin: 0 10.4em;
+  display: inline-block;
+  color: white;
+  position: relative;
+
+}
+
+.event li::before{
+    content: '';
+    position: absolute;
+    top: .4em;
+    left: -8em;
+    width: 22.5em;
+    height: .1em;
+    background: white;
+    z-index: 1;
+}
+
+/*
+.event li:first-child::before {
+  display: none;
+}
+*/
+
+.event li:last-child{
+  color: white;
+}
+.event.active {
+  background: white;
+}
+
+.event.active ~ li {
+  background: lightblue;
+}
+
+.event.active ~ li::before {
+  background: lightblue;
+}
+
+@media screen  and (max-width: 979px) /* Tablet */ {
+	.usc-logo {
+		width:50%;
+		max-width: 137px;
+		margin-top: 20px;
+	}
+
+	div#navigation nav {
+		width: 32%;
+		height: 100vh;
+		min-width: 250px;
+		z-index: 300;
+		display:none;
+		position:absolute;
+	}
+
+	div#navigation nav div {
+		padding: 15px 5px;
+		background: #002f3d; 
+		height:auto;
+	}
+
+	div#navigation nav div ul {
+		list-style-type: none;
+		padding: 0;
+		margin:0;
+	}
+
+	div#navigation a{
+		color:#ffffff;
+		padding: 10px 10px 10px 20px;
+		display:block;
+		text-align:left;
+		width:90%;
+	}
+
+	div#navigation #main li > span {
+		display: inline-block;
+		width: 10%;
+		padding: 10% 8px;
+		border: #002733 1px solid;
+		color: #FFFFFF;
+		float: right;
+		cursor: pointer;
+	}
+
+	div#navigation nav div ul ul {
+		margin-left: 15px;
+	}
+	div#navigation nav div ul ul a {
+		color:#D1D1D8;
+	}
+
+	div#main {
+		border-bottom: 1px solid #002733;
+		border-top: 1px solid gray;
+	}
+	div#navigation #main a {font-size: 90%;}
+
+	div#navigation #main ul.submenu {font-size: 85%; display: none;}
+
+	div#navigation .secondary a {font-size: 75%;color:#d1d1d8;}
+
+	.sab > div{ width:100%; text-align:left!important; vertical-algin:top; display:table-cell; }
+
+	li.neuroimaging, li.proteomics, li.genomics, li.phenomics{
+		margin:10px 20px 0 35px; vertical-align:top!important; font-size:67%;
+	}
+	
+   	span.fa-stack{ cursor:pointer; display:block; color:rgba(255, 255, 255, .5); }
+
+ 	.hero #BDDS-logo{ width: 25%; margin-right: 20px;margin-left: 5%; min-width: 180px;}
+ 	#BDDS-tagline {font-size: 80%;}
+ 	.smalltext { width: 80%; margin-left: 0; }
+ 
+		#big {
+		    font-family: 'Unica One', cursive;
+		    font-size: 2.5em;
+		    color: #b20000;
+		}
+
+		#for {
+		    font-family: 'Garamond', serif;
+		    font-size: 25px;
+		    color: #888;
+		    font-style: italic;
+		}
+
+		#discover {
+		    font-family: 'Unica One', cursive;
+		    font-size: 2.5em;
+		    color: #002f3d;
+		}
+ 
+	  h3 > span, h2> span{ clear:both; display: table-cell;padding: 5px;}
+	  footer > ul.event, footer > ul.event-content{ display:none !important;}
+	  
+	  .split:first-child, .split:last-child{ display:block !important; clear:both; width:95%; margin: 10px auto; }
+
+	  p, p.tools, p:nth-of-type(1), p:nth-of-type(3), section div p, figcaption{ border:none; width:90%; padding: 10px 5%; margin: 0 auto; display:block!important; }
+	  
+	  
+	 .infobox{ 
+		display:none;
+		width: 80%;
+	    position: relative;
+	    margin-top: 40px;
+	    margin-bottom:10px;
+	    background: rgba(231, 231,232, .60);
+	    padding: 20px 10% 20px 10%;
+	    font-size:80%;
+	}
+
+ 	.infographiclink{ display:none !important; }
+  	
+  	h1, h2, h3, .split:last-child h3 {margin: 0;padding-left:5%;width: 90%;}
+  	h3 > span, h2 > span{ float: none; font-size: 14px;}
+  	h2:before, h3:before, .split:last-child h3:before {content:none;}
+
+/*  	.flogos {width: 90%;display: block;padding-bottom: 25px;} */
+  	.flogos img {height: 50px;}
+  	.footer-nav {border-top: 1px solid #002733;padding: 10px 10%;/*width: 80%;*/clear:both;}
+}
+
+@media screen and (max-width: 500px) /* Mobile */ {
+ 
+	.threejs-content{ display:none; }
+
+	.hero #BDDS-logo{ 
+		width: 70%;
+		max-width: 250px;
+		margin: 0 auto;
+		float: none;
+	}
+
+	#BDDS-tagline {
+		width: 80%;
+		padding: 20px 10%;
+		display: block;
+		clear:both;
+		text-align: center;
+		font-size: 70%;
+	}
+
+	.smalltext {padding-top: 10px;margin: 0 auto;}
+
+	 #big {
+	    font-family: 'Unica One', cursive;
+	    color: #b20000;
+	}
+
+	#for {
+	    font-family: 'Garamond', serif;
+	    color: #888;
+	    font-style: italic;
+	}
+
+	#discover {
+	    font-family: 'Unica One', cursive;
+	    color: #002f3d;
+	}
+
+	.infobox {margin-top: 10px;}
+
+	.footer-nav {float: none;}
+	.footer-nav a{ text-align:left; display: block;}
+
+}
+
