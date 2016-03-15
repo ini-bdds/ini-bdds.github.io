@@ -67,7 +67,8 @@ footer img {
 .flogos {
     text-align:center;
 }
-.footer-nav{padding-top:30px;} 
+/* .footer-nav{padding-top:30px;} */
+
 .footer-nav a {padding: 10px;}
 footer a{ 
 	color:#bcbec0; 
@@ -333,7 +334,7 @@ footer a{
 	.infobox {margin-top: 10px;}
 
 	.footer-nav {float: none;}
-	.footer-nav a{ text-align:left; display: block;}
+/*	.footer-nav a{ text-align:left; display: block;} */
 
 }
 
